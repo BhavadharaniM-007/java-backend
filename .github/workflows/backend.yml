@@ -23,7 +23,7 @@ jobs:
         run: mvn clean package
 
       - name: Build Docker image
-        run: docker build -t yourdockerhubusername/java-backend:latest .
+        run: docker build -t BhavadharaniM-007/java-backend:latest .
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
